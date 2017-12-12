@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Great Number Game</title>
+</head>
+<body>
+  <h1>Great Number Game</h1>
+  <p>I am thinking of a number between 1 and 100</p>
+   <p>Take a guess!</p>
+    <form action="Number" method="post">
+      <input type="number" name="num">
+      <input type="submit" value="Submit">
+    </form>
+   
+    <p><% String msg = (String)request.getSession().getAttribute("num")  ;%></p>
+    
+   <p><%if(msg.equals("Number is too high") || msg.equals("Number is too low")){ %> 
+             <%= msg %>
+     <%}else{ %>
+       <%Integer num = (Integer)request.getSession().getAttribute("equal") ;%>
+      <p>This is the number:  <%= num %></p>
+      <form action="" method="post">
+      <input type="hidden" name="playAgain">
+      <input type="submit" value="Play Again!">
+      </form>
+     <% } %> 
+  </p>   
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+package com.codingdojo.animal.model;
+
+public class dog extends Animal {
+	private String dogName;
+	protected String dogBreed;
+	private int dogWeight;
+
+	public dog(String name, String breed, int weight) {
+		super(name, breed, weight);
+		// TODO Auto-generated constructor stub
+		this.dogName = this.getName();
+		this.dogBreed = this.getBreed();
+		this.dogWeight = this.getWeight();
+		
+	}
+	public String showAffection() {
+		//dog Dog = new dog();
+		if(this.dogWeight < 30) {
+			return this.dogName +" has hopped onto your lap and cuddled you";
+		}else if(this.dogWeight >= 30) {
+			return this.dogName + " has curled up next to you";
+		}
+		return null;
+	}
+	
+	public String getDogBreed() {
+		return dogBreed;
+	}
+
+}

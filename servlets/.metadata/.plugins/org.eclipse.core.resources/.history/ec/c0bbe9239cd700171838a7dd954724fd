@@ -1,0 +1,14 @@
+package com.codingdojo.animal.model;
+
+public class cat extends Animal{
+	protected String name;
+	protected String breed;
+	protected int weight;
+	public cat(String name, String breed, int weight) {
+		this.name = name;
+		this.breed = breed;
+		this.weight = weight;
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.codingdojo.model;
+
+public class team {
+	
+String TeamName;
+	
+	public team(String name) {
+		this.TeamName = name;
+	}
+	
+	public String getTeamName() {
+		return this.TeamName;
+	}
+
+
+}

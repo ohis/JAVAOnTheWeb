@@ -1,0 +1,19 @@
+package com.codingdojo.model;
+
+import java.util.ArrayList;
+
+public class team {
+	
+String TeamName;
+ArrayList<Player> player = new ArrayList<Player>();
+	
+	public team(String name) {
+		this.TeamName = name;
+	}
+	
+	public String getTeamName() {
+		return this.TeamName;
+	}
+
+
+}

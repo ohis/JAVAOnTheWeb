@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.codingdojo.hello.models.Person"/>
+<fullyQualifiedTypeName name="com.codingdojo.animal.model.Animal"/>
+<fullyQualifiedTypeName name="com.codingdojo.animal.model.dog"/>
+<fullyQualifiedTypeName name="com.codingdojo.animal.model.cat"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.codingdojo.models.Timer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="com.codingdojo.model.team"/>
+<fullyQualifiedTypeName name="com.codingdojo.model.Player"/>
+<fullyQualifiedTypeName name="com.codingdojo.models.Team"/>
+<fullyQualifiedTypeName name="com.codingdojo.models.Roster"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.codingdojo.models.Player"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.codingdojo.model.Roster"/>
+</qualifiedTypeNameHistroy>
